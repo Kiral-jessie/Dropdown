@@ -16,7 +16,9 @@
   --fw-800: 800;
   --fw-900: 900;
 }
-
+ul li {
+  list-style: none;
+}
 * {
   margin: 0;
   padding: 0;
@@ -79,6 +81,11 @@ header {
   padding: 0.5rem 1rem;
 }
 
+.dropdown li:hover {
+  background-color: hsl(0, 0%, 96%); /* Light background on hover */
+  color: hsl(0, 0%, 8%); /* Dark text color */
+}
+
 .dropdown li a {
   text-decoration: none;
   color: var(--medium-gray);
@@ -122,15 +129,8 @@ header {
 }
 
 .textcontent h1 {
-<<<<<<< HEAD
   font-size: 3.5rem;
   margin-bottom: 2rem;
-=======
-  font-size: 4rem;
-  margin-bottom: 4rem;
-line height:1.5;
-
->>>>>>> abd62ed032402a3d4eaf62d1b21ae4384ad6484b
 }
 
 .textcontent p {
