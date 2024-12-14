@@ -111,14 +111,14 @@ justify-content: space-between;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2rem;
-  margin-top:12rem;
-  margin-left:5rem;
+  padding: 1rem;
+  margin-top:10rem;
+  margin-left:3rem;
 }
 
 .textcontent {
   max-width: 70%;
-    margin:2rem;
+    margin:1rem;
 }
 
 .textcontent h1 {
