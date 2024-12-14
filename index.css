@@ -97,13 +97,13 @@ justify-content: space-between;
 .authbutton .register {
     
   background:hsl(0, 0%, 98%) ;
-  margin-left: 9rem;
+  margin-left: 5rem;
     color: black;
     border:1px solid black;
     border-radius:7px;
 }
  .authbutton .login {
-   margin-left: 9rem;
+   margin-left: 8rem;
     color:black;
 }
 
@@ -117,17 +117,17 @@ justify-content: space-between;
 }
 
 .textcontent {
-  max-width: 70%;
-    margin:1rem;
+  max-width: 60%;
+    margin:0.5rem;
 }
 
 .textcontent h1 {
   font-size: 3.5rem;
-  margin-bottom: 7rem;
+  margin-bottom: 6rem;
 }
 
 .textcontent p {
-  margin-bottom: 7.5rem;
+  margin-bottom: 6rem;
   line-height: 1.5;
 }
 
