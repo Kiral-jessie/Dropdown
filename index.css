@@ -97,14 +97,14 @@ justify-content: space-between;
 .authbutton .register {
     
   background:hsl(0, 0%, 98%) ;
-  margin-left: 4rem;
+  margin-left: 9rem;
     color: black;
     border:1px solid black;
     border-radius:7px;
 }
- .login {
+ .authbutton .login {
    margin-left: 9rem;
-    
+    color:black;
 }
 
 .secondcontainer {
@@ -118,16 +118,16 @@ justify-content: space-between;
 
 .textcontent {
   max-width: 70%;
-    margin:8rem;
+    margin:2rem;
 }
 
 .textcontent h1 {
   font-size: 3.5rem;
-  margin-bottom: 1rem;
+  margin-bottom: 7rem;
 }
 
 .textcontent p {
-  margin-bottom: 1.5rem;
+  margin-bottom: 7.5rem;
   line-height: 1.5;
 }
 
