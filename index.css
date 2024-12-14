@@ -5,7 +5,7 @@
 --Medium Gray: hsl(0, 0%, 41%)
 -- Almost Black: hsl(0, 0%, 8%)
     --font-size: 18px;
-    --font-family:"work Sans",sans-serif;
+    --font-family:"Epilogue",sans-serif;
     --fw-100:100;
     --fw-200:200;
     --fw-300:300;
@@ -95,8 +95,14 @@ justify-content: space-between;
 }
 
 .authbutton .register {
-  background: hsl(0, 0%, 41%);
+  background:hsl(0, 0%, 98%) ;
   margin-left: 2rem;
+    color: black;
+}
+.authbutton .login {
+    background:hsl(0, 0%, 98%) ;
+  margin-left: 2rem;
+    color: black;
 }
 
 .secondcontainer {
@@ -110,6 +116,7 @@ justify-content: space-between;
 
 .textcontent {
   max-width: 50%;
+    padding:2rem;
 }
 
 .textcontent h1 {
@@ -128,6 +135,7 @@ justify-content: space-between;
   background: black;
   padding: 0.5rem 1.5rem;
   border-radius: 4px;
+    border:2px solid black;
 }
 
 .image img {
