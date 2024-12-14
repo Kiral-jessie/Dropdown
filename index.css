@@ -122,8 +122,15 @@ header {
 }
 
 .textcontent h1 {
+<<<<<<< HEAD
   font-size: 3.5rem;
   margin-bottom: 2rem;
+=======
+  font-size: 4rem;
+  margin-bottom: 4rem;
+line height:1.5;
+
+>>>>>>> abd62ed032402a3d4eaf62d1b21ae4384ad6484b
 }
 
 .textcontent p {
