@@ -252,11 +252,11 @@ body {
   }
 
   .mobile-menu-active .auth-button {
-    display: block; 
+    display: none; 
   }
 
   .mobile-menu-active .nav-links {
-    display: block;
+    display: none;
   }
 
 }
