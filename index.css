@@ -181,7 +181,7 @@ body {
 }
 .hamburger {
   font-size:2rem;
-  margin-left:2rem;
+  margin-left:1rem;
 }
 
 .attribution {
@@ -195,7 +195,7 @@ body {
 }
 
 
-@media (min-width: 1100px) {
+@media (min-width: 780px) {
   .secondcontainer {
     padding: 2rem 4rem;
   }
