@@ -179,6 +179,10 @@ body {
   height: auto;
   margin-left:2rem;
 }
+.hamburger {
+  font-size:2rem;
+  margin-left:2rem;
+}
 
 .attribution {
   text-align: center;
@@ -208,22 +212,22 @@ body {
     display: none; 
   }
 
-  .linkss {
+  .nav-links {
     display: block; 
   }
 
-  .authbutton {
+  .auth-button {
     display: block; 
   }
 
 }
 
 @media (max-width: 780px) {
-  .linkss {
+  .nav-links {
     display: none;
   }
 
-  .authbutton {
+  .auth-button {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -244,14 +248,14 @@ body {
     width: 100%;
   }
   .hamburger {
-    display: block; /* Visible on mobile */
+    display: block;
   }
 
-  .mobile-menu-active .authbutton {
-    display: block; /
+  .mobile-menu-active .auth-button {
+    display: block; 
   }
 
-  .mobile-menu-active .linkss {
+  .mobile-menu-active .nav-links {
     display: block;
   }
 
