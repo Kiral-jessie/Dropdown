@@ -247,19 +247,55 @@ body {
   .image img {
     width: 100%;
   }
+
+.hamburger {
+  display: block; /* Visible on mobile */
+  cursor: pointer;
+  font-size: 30px; /* Size of the hamburger */
+}
+
+.mobile-menu {
+  display: none; /* Hidden by default */
+  flex-direction: column;
+  position: absolute;
+  top: 50px;
+  right: 10px;
+  background-color: white;
+  padding: 20px;
+  border: 1px solid #ddd;
+  z-index: 1000;
+}
+
+/* When mobile menu is active, display it */
+.mobile-menu.active {
+  display: flex;
+}
+
+/* Hide Auth Button and Links on Mobile when the menu is active */
+.mobile-menu.active .auth-button,
+.mobile-menu.active .nav-links {
+  display: none;
+}
+
+/* For larger screens (laptop/desktop) */
+@media (min-width: 768px) {
   .hamburger {
+    display: none; /* Hide hamburger on desktop */
+  }
+
+  /* Ensure the menu is displayed normally on larger screens */
+  .mobile-menu {
+    display: flex;
+    flex-direction: row;
+    position: static;
+    background-color: transparent;
+    padding: 0;
+    border: none;
+  }
+
+  /* Show the Auth button and Links on Desktop */
+  .auth-button,
+  .nav-links {
     display: block;
-    cursor:pointer;
-    font-size:2rem;
-    
   }
-
-  .mobile-menu-active .auth-button {
-    display: none; 
-  }
-
-  .mobile-menu-active .nav-links {
-    display: none;
-  }
-
 }
