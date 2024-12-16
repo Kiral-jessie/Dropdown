@@ -249,6 +249,9 @@ body {
   }
   .hamburger {
     display: block;
+    cursor:pointer;
+    font-size:2rem;
+    
   }
 
   .mobile-menu-active .auth-button {
