@@ -193,7 +193,11 @@ body {
   text-decoration: none;
   color: green;
 }
-
+.foot{
+  display:flex;
+  justify content:space-between;
+  text-align:center;
+}
 
 @media (min-width: 780px) {
   .secondcontainer {
