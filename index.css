@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap");
+no@import url("https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap");
 
 :root {
   --almost-white: hsl(0, 0%, 98%);
@@ -273,6 +273,7 @@ body {
 /* When mobile menu is active, display it */
 .mobile-menu.active {
   display: flex;
+  flex-direction: column;
 }
 
 /* Hide Auth Button and Links on Mobile when the menu is active */
@@ -281,25 +282,4 @@ body {
   display: none;
 }
 
-/* For larger screens (laptop/desktop) */
-@media (min-width: 768px) {
-  .hamburger {
-    display: none; /* Hide hamburger on desktop */
-  }
-
-  /* Ensure the menu is displayed normally on larger screens */
-  .mobile-menu {
-    display: flex;
-    flex-direction: row;
-    position: static;
-    background-color: transparent;
-    padding: 0;
-    border: none;
-  }
-
-  /* Show the Auth button and Links on Desktop */
-  .auth-button,
-  .nav-links {
-    display: block;
-  }
 }
