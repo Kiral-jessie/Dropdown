@@ -1,5 +1,5 @@
 const hamburger = document.getElementById("hamburger");
-const mobileMenu = document.getElementById("mobileMenu");
+const mobileMenu = document.querySelector(".mobile-menu"); // Use the class selector
 
 hamburger.addEventListener("click", () => {
   mobileMenu.classList.toggle("active"); // Toggle the 'active' class on the mobile menu
