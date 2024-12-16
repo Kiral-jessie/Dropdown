@@ -1,4 +1,4 @@
-no@import url("https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap");
+hino@import url("https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap");
 
 :root {
   --almost-white: hsl(0, 0%, 98%);
@@ -223,7 +223,12 @@ body {
   .auth-button {
     display: block; 
   }
-
+.foot{
+  display:flex;
+  flex-wrap: wrap;
+  justify content:center;
+  text-align:center;
+}
 }
 
 @media (max-width: 780px) {
