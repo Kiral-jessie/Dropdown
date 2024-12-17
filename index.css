@@ -195,7 +195,7 @@ body {
 }
 .foot{
   display:flex;
-  justify content:space-between;
+  justify-content:space-between;
   text-align:center;
 }
 
@@ -226,7 +226,7 @@ body {
 .foot{
   display:flex;
   flex-wrap: wrap;
-  justify content:center;
+  justify-content:center;
   text-align:center;
 }
 }
