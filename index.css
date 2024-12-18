@@ -182,6 +182,7 @@ body {
 .hamburger {
   font-size:2rem;
   margin-left:1rem;
+  gap:6rem;
 }
 
 .attribution {
@@ -241,6 +242,9 @@ body {
     flex-direction: column;
     align-items: center;
     display: none;
+  }
+  .nav-linkse{
+    display:none;
   }
 
   .secondcontainer {
