@@ -226,7 +226,7 @@ body {
 .foot{
   display:flex;
   flex-wrap: wrap;
-  justify-content:center;
+  justify-content: space-around;
   text-align:center;
 }
 }
@@ -260,7 +260,7 @@ body {
 .hamburger {
   display: block; /* Visible on mobile */
   cursor: pointer;
-  font-size: 100px; /* Size of the hamburger */
+  font-size: 2rem; /* Size of the hamburger */
 }
 
 .mobile-menu {
@@ -283,7 +283,8 @@ body {
 
 /* Hide Auth Button and Links on Mobile when the menu is active */
 .mobile-menu.active .auth-button,
-.mobile-menu.active .nav-links {
+.mobile-menu.active .nav-links,
+.mobile-menu.active .nav-linkse{
   display: none;
 }
 
