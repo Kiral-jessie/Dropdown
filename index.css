@@ -260,7 +260,7 @@ body {
 .hamburger {
   display: block; /* Visible on mobile */
   cursor: pointer;
-  font-size: 30px; /* Size of the hamburger */
+  font-size: 100px; /* Size of the hamburger */
 }
 
 .mobile-menu {
