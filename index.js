@@ -1,6 +1,6 @@
 const hamburger = document.getElementById("hamburger");
 const navLinks = document.querySelector(".nav-links"); 
-const authButton = document.querySelector(".auth-button"); 
+const authButton = document.querySelector(".auth-buttons"); 
 
 
 hamburger.addEventListener("click", () => {
