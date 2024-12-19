@@ -219,7 +219,7 @@ body {
 
   .nav-links {
     display: block; 
-    display:flex;
+   
   }
   .nav-item{
     display:flex;
@@ -234,9 +234,7 @@ body {
   justify-content: space-around;
   
 }
-  a{
-    display:flex;
-  }
+  
 }
 
 @media (max-width: 780px) {
