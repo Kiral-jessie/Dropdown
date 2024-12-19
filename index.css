@@ -255,6 +255,8 @@ body {
   display: flex;
   flex-direction: column;
   left:0;
+    margin-top:7rem;
+    margin-left:3rem;
   }
   .nav-linkse{
     display:none;
@@ -280,17 +282,7 @@ body {
   font-size: 2rem; /* Size of the hamburger */
 }
 
-.mobile-menu {
-  display: none; /* Hidden by default */
-  flex-direction: column;
-  position: absolute;
-  top: 50px;
-  right: 10px;
-  background-color: white;
-  padding: 20px;
-  border: 1px solid #ddd;
-  z-index: 1000;
-}
+
 
 .nav-links{
             position:fixed;
@@ -300,17 +292,13 @@ body {
             flex-direction: column;
             transition:0.3secs;
             /*text-align:center;*/
-            width:50%;
+            width:70%;
             margin-left:11rem;
             height:100%;
             background-color:white;
            border: 1px solid #ddd;
            z-index: 1000;
-  
-
-            
-
-}
+  }
 .nav-links.active {
   display: flex;
   flex-direction: column;
