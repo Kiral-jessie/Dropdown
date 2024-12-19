@@ -237,7 +237,7 @@ body {
     display: none;
   }
 
-  .auth-button {
+  .auth-buttons {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -250,7 +250,7 @@ body {
             /*text-align:center;*/
             
   }
-  .auth-button.active{
+  .auth-buttons.active{
     
   display: flex;
   flex-direction: column;
