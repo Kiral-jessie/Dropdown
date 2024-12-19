@@ -230,6 +230,9 @@ body {
   justify-content: space-around;
   
 }
+  a{
+    display:flex;
+  }
 }
 
 @media (max-width: 780px) {
