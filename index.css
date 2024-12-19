@@ -242,6 +242,19 @@ body {
     flex-direction: column;
     align-items: center;
     display: none;
+        left:-100%;
+            top:70px;
+            gap:0;
+            flex-direction: column;
+            transition:0.3secs;
+            /*text-align:center;*/
+            
+  }
+  .auth-button.active{
+    
+  display: flex;
+  flex-direction: column;
+  left:0;
   }
   .nav-linkse{
     display:none;
