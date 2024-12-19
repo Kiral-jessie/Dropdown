@@ -219,6 +219,10 @@ body {
 
   .nav-links {
     display: block; 
+    display:flex;
+  }
+  .nav-item{
+    display:flex;
   }
 
   .auth-button {
