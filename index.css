@@ -196,7 +196,7 @@ body {
 }
 .foot{
   display:flex;
-  justify-content:space-between;
+  justify-content:space-around;
   text-align:center;
 }
 
@@ -228,7 +228,7 @@ body {
   display:flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  text-align:center;
+  
 }
 }
 
@@ -279,17 +279,27 @@ body {
   z-index: 1000;
 }
 
-/* When mobile menu is active, display it */
-.mobile-menu.active {
+.nav-links{
+            position:fixed;
+            left:-100%;
+            top:70px;
+            gap:0;
+            flex-direction: column;
+            transition:0.3secs;
+            /*text-align:center;*/
+            width:50%;
+            margin-left:11rem;
+            height:80%;
+            background-color:grey;
+            
+
+}
+.nav-links.active {
   display: flex;
   flex-direction: column;
+  left:0;
 }
 
-/* Hide Auth Button and Links on Mobile when the menu is active */
-.mobile-menu.active .auth-button,
-.mobile-menu.active .nav-links,
-.mobile-menu.active .nav-linkse{
-  display: none;
-}
+
 
 }
