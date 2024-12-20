@@ -181,8 +181,17 @@ body {
 }
 .hamburger {
   font-size:2rem;
-  margin-left:5rem;
   
+  
+}
+.auth-links{
+  margin-left:auto
+}
+.hamburger span{
+  width:25px;
+  height:3px;
+  background-color:black;
+  transition:all 0.3s ease;
 }
 
 .attribution {
@@ -287,7 +296,17 @@ body {
   cursor: pointer;
   font-size: 2rem; /* Size of the hamburger */
 }
-
+.hamburger.active span:nth-child(1) {
+  transform: rotate(45deg);
+  top: 8px;
+}
+.hamburger.active span:nth-child(2) {
+  opacity: 0;
+}
+.hamburger.active span:nth-child(3) {
+  transform: rotate(-45deg);
+  top: -8px;
+}
 
 
 .nav-links{
