@@ -218,9 +218,12 @@ body {
   }
 
   .nav-links {
-    display: block; 
-   
-  }
+    display: flex; 
+    position:static;
+    height:auto;
+    width:auto;
+    flex-direction:row;
+    }
   .nav-item{
     display:flex;
   }
