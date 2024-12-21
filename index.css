@@ -55,6 +55,9 @@ body {
 .nav-links {
   display: flex;
   list-style: none;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  position: fixed;
 }
 .nav-linkse {
   display: flex;
