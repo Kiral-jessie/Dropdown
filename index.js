@@ -5,5 +5,5 @@ const authButton = document.querySelector(".auth-buttons");
 
 hamburger.addEventListener("click", () => {
   navLinks.classList.toggle("active"); 
-authButton.classList.toggle("active"); 
+hamburger.classList.toggle("active"); 
 });
