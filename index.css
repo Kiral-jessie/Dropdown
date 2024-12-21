@@ -196,6 +196,20 @@ body {
   background-color:black;
   transition:all 0.3s ease;
 }
+ .hamburger.active span:nth-child(1) {
+  transform: rotate(45deg);
+  top: 8px;
+}
+
+.hamburger.active span:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger.active span:nth-child(3) {
+  transform: rotate(-45deg);
+  top: -8px;
+}
+
 
 .attribution {
   text-align: center;
@@ -235,7 +249,12 @@ body {
     height:auto;
     width:auto;
     flex-direction:row;
+    justify-content: space-between;
+  padding: 1rem 2rem;
     }
+  .auth-links{
+  margin-left:auto
+  }
   .nav-item{
     display:flex;
   }
@@ -299,33 +318,22 @@ body {
   cursor: pointer;
   font-size: 2rem; /* Size of the hamburger */
 }
-.hamburger.active span:nth-child(1) {
-  transform: rotate(45deg);
-  top: 8px;
-}
-.hamburger.active span:nth-child(2) {
-  opacity: 0;
-}
-.hamburger.active span:nth-child(3) {
-  transform: rotate(-45deg);
-  top: -8px;
-}
-
-
 .nav-links{
             position:fixed;
             left:-100%;
             top:70px;
             gap:0;
             flex-direction: column;
-            transition:0.3secs;
+            transition:left 0.3secs ease-in-out;
             /*text-align:center;*/
             width:70%;
-            margin-left:11rem;
+           /* margin-left:11rem;*/
             height:100%;
             background-color:white;
            border: 1px solid #ddd;
            z-index: 1000;
+  gap:1rem;
+padding:2rem;
   }
 .nav-links.active {
   display: flex;
