@@ -205,7 +205,7 @@ body {
   transition:all 0.3s ease;
 }
  .hamburger.active span:nth-child(1) {
-  transform: rotate(45deg) translate Y(8px);
+  transform: rotate(45deg) translateY(8px);
   
 }
 
@@ -214,7 +214,7 @@ body {
 }
 
 .hamburger.active span:nth-child(3) {
-  transform: rotate(-45deg) translate (-8px);
+  transform: rotate(-45deg) translateY(-8px);
  
 }
 
